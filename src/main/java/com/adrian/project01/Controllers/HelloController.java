@@ -1,4 +1,4 @@
-package com.adrian.project01;
+package com.adrian.project01.Controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 

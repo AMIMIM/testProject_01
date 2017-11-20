@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Test project - results</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+	Congratulations! You are old enough to sign up for this site.
+	
+	<table>
+			<tr>
+				<td>Name of person:</td>
+		 		<td th:text="${personOk.name}">&nbsp;</td>
+		 
+			 </tr>
+			 <tr>
+				<td>Age of person:</td>
+		 		<td th:text="${personOk.age}">&nbsp;</td>
+		 
+			 </tr>
+			 
+			  <tr>
+				<td>All about person:</td>
+		 		<td th:text="${personOk.toString()}">&nbsp;</td>
+		 
+			 </tr>
+ 	</table>
+	
+</body>
+</html>
