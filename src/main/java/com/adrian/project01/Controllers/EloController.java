@@ -11,7 +11,7 @@ public class EloController {
 	@RequestMapping("/elo")
 	public String helloMethod(@RequestParam(value="name", required=false, defaultValue="there mate!") String name, Model model) {
 		model.addAttribute("name", name);
-		return "elo";
+		return "Index";
 	}
 	
 }
